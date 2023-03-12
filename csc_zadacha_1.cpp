@@ -2,9 +2,9 @@
 
 
 int comparison(int num) {
-	int t = 1, i = 1;;
+	int t = 1, i = 1;
 	do {
-		t = 1 << i;
+		t = 1 << i; // побитовый cдвиг единицы на i = 2 в степени i 
 		if (num < t) {
 			return i - 1;
 		}
